@@ -1,0 +1,36 @@
+Example Programs
+
+mygps:
+	controls gps device. 
+	to power on GPS, arg -on 
+	to power off GPS, arg -off
+
+pcq_test
+	print current GPS version, longitude, latitude, device's clock time,
+	GPS calculated time, speed, direction, DOP, mesurement mode, map datum,
+	unkonw data, and parity. with, or without loop.
+pcq_test2
+	displays longitude, latitude, altitude, velocity, and degrees in word,
+	in Japanese.
+pcq_testALL
+	displays all GPS receiving data. with Satelite information.
+
+
+
+Library Files
+
+pcq_power.o:
+	library to obtain current gps information.
+pcq.o:
+	library to manipulate the gps information into understandable
+	data structure
+
+pcq_print.o:
+	printing of gps informaion. Only used for print_test program
+
+Document Files
+
+README: Sorry, Japanese only
+FILES: this file
+doc/* :still under construction...
+
